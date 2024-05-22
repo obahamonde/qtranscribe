@@ -1,0 +1,6 @@
+openai-whisper
+requests
+fastapi
+pytub
+pydub
+numpy

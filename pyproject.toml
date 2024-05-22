@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qtranscribe"
+version = "0.0.1"
+description = "QTranscribe is a cloud service that uses Whisper model `medium` to provide in real-time transcription of audio files and youtube videos."
+authors = ["obahamonde <oscarmartinbahamondemunoz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai-whisper = "^20231117"
+pytube = "^15.0.0"
+pydub = "^0.25.1"
+numpy = "^1.26.4"
+fastapi = "^0.111.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
