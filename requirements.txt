@@ -1,6 +1,7 @@
 openai-whisper
-requests
 fastapi
-pytub
+pytube
 pydub
 numpy
+httpx
+cachetools

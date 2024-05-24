@@ -1,4 +1,5 @@
-from typing_extensions import TypedDict
+from typing_extensions import Required, TypedDict
+
 
 class YoutubeVideo(TypedDict, total=False):
     title: str
@@ -8,3 +9,6 @@ class YoutubeVideo(TypedDict, total=False):
     author: str
     embed_url: str
 
+
+class WhisperTranscription(TypedDict, total=False):
+    text: Required[str]

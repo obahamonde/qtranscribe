@@ -6,14 +6,16 @@ authors = ["obahamonde <oscarmartinbahamondemunoz@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 openai-whisper = "^20231117"
-pytube = "^15.0.0"
+pytube = "12.1.3"
 pydub = "^0.25.1"
 numpy = "^1.26.4"
 fastapi = "^0.111.0"
+requests = "^2.32.2"
 
-
+[tool.isort]
+profile = "black"
 
 [build-system]
 requires = ["poetry-core"]
